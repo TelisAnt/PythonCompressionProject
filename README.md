@@ -57,7 +57,7 @@ Then start the Flask Server:
 
 Flask server will be available at: http://localhost:5000
 
-**Terminal 2 – Client**:
+**Terminal 2 – Client**
 
  Activate virtual environment: source venv/bin/activate
  
