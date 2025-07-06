@@ -27,34 +27,34 @@ The application performs the following:
 ---
 
 ## How to Run the Project
-**1. Clone the repository**
+**1. Clone the repository**: 
   -git clone https://github.com/TelisAnt/PythonCompressionProject
   -cd PythonCompressionProject
 
-**2. Create and activate a virtual environment**
+**2. Create and activate a virtual environment**:
   -python -m venv venv
   -source venv/bin/activate  # For Unix/macOS
   -venv\Scripts\activate     # For Windows
 
-**3. Install required libraries**
+**3. Install required libraries**:
 With the virtual environment activated, install the following libraries using pip:
  -pip install Flask
  -pip install requests
  -pip install python-magic
 
 ## Running the Application
-# Terminal 1 – Server
-# Activate virtual environment
+ **Terminal 1 – Server**
+ Activate virtual environment
 source venv/bin/activate
 
 # Start the Flask server
-python webapp.py
-Flask server will be available at: http://localhost:5000
+ -python webapp.py
+ -Flask server will be available at: http://localhost:5000
 
-# Terminal 2 – Client
-# Activate virtual environment
-source venv/bin/activate
+**Terminal 2 – Client**
+Activate virtual environment
+ -source venv/bin/activate
 
-# Start the Flask client interface
-python client.py
-# Flask client UI will open in your browser at: http://localhost:8000
+**Start the Flask client interface**
+ -python client.py
+**Flask client UI will open in your browser at: http://localhost:8000**
