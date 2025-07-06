@@ -48,12 +48,13 @@ With the virtual environment activated, install the following libraries using pi
 ---
 
 ## Running the Application
- **Terminal 1 – Server -**
+ **Terminal 1 – Server**
  
 Activate virtual environment: source venv/bin/activate
 
 Then start the Flask Server:
  - python webapp.py
+
 Flask server will be available at: http://localhost:5000
 
 **Terminal 2 – Client**:
@@ -62,4 +63,5 @@ Flask server will be available at: http://localhost:5000
  
  Start the Flask client interface
  - python client.py
+
  Flask client UI will open in your browser at: http://localhost:8000
