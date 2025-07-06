@@ -24,37 +24,45 @@ The application performs the following:
     - Recomputes the SHA256 hash of the decoded message and compares it to the original hash.
     - Calculates and displays the entropy of the final message.
 
----
+--
 
-## How to Run the Project
+## Set up the Project
 **1. Clone the repository**: 
+
   -git clone https://github.com/TelisAnt/PythonCompressionProject
   -cd PythonCompressionProject
 
 **2. Create and activate a virtual environment**:
+
   -python -m venv venv
   -source venv/bin/activate  # For Unix/macOS
   -venv\Scripts\activate     # For Windows
 
 **3. Install required libraries**:
+
 With the virtual environment activated, install the following libraries using pip:
  -pip install Flask
  -pip install requests
  -pip install python-magic
 
+--
+
 ## Running the Application
  **Terminal 1 – Server**
- Activate virtual environment
-source venv/bin/activate
+ **Activate virtual environment**:
+ 
+ -source venv/bin/activate
 
-# Start the Flask server
+**Start the Flask server**
  -python webapp.py
  -Flask server will be available at: http://localhost:5000
 
-**Terminal 2 – Client**
-Activate virtual environment
+**Terminal 2 – Client**:
+
+**Activate virtual environment**
  -source venv/bin/activate
 
 **Start the Flask client interface**
  -python client.py
+ 
 **Flask client UI will open in your browser at: http://localhost:8000**
